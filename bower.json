@@ -1,0 +1,21 @@
+{
+  "name": "remotex-bootstrap",
+  "version": "0.0.1",
+  "authors": [
+    "Morten Nielsen <morten@morkeleb.com>"
+  ],
+  "description": "RemoteX Styles applied to Twitter Bootstrap",
+  "license": "MIT",
+  "main": ["theme/app.less", "theme/variables.less"],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
